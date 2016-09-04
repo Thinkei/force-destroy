@@ -24,4 +24,18 @@ FactoryGirl.define do
   factory :room do
     room_no 'room no'
   end
+
+  factory :movie, aliases: [:commentable] do
+    name 'cartoon'
+    description 'cartoon desc'
+  end
+
+  factory :photo do
+    caption 'random'
+  end
+
+  factory :comment do
+    content 'comment content'
+    commentable
+  end
 end

@@ -13,7 +13,8 @@ module Force
         @_destroying = true
         self.class.transaction do
           self.class.related_assocs.each do |assoc|
-            self.send(assoc[:name]).send("force_destroy#{assoc[:collection] ? '_all!': '!'}")
+            related = self.send(assoc[:name])
+            related.send("force_destroy#{assoc[:collection] ? '_all!': '!'}") if related.present?
           end
           self.delete
         end
@@ -24,8 +25,10 @@ module Force
 
     module ClassMethods
       def force_destroy_all!
-        find_each do |record|
-          record.force_destroy!
+        transaction do
+          find_each do |record|
+            record.force_destroy!
+          end
         end
       end
 
