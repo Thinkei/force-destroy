@@ -21,8 +21,8 @@ Or install it yourself as:
 ## Usage
 
 This gem automatically adds in the 2 methods below:
-  1) `force_destroy!`: helps you to delete an ActiveRecord instance together with its associations even if the callbacks return false or throw abort
-  2) `force_destroy_all!`: similar to `force_destroy!`, but instead of deleting only an ActiveRecord instance, it deletes an ActiveRecord collection
+  - `force_destroy!`: helps you to delete an ActiveRecord instance together with its associations even if the callbacks return false or throw abort
+  - `force_destroy_all!`: similar to `force_destroy!`, but instead of deleting only an ActiveRecord instance, it deletes an ActiveRecord collection
 
 ## Development
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/force-destroy. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thukim/force-destroy. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
