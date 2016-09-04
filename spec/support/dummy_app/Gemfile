@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+
+gem 'rails'
+gem 'sqlite3'
+gem 'force-destroy', path: File.expand_path('../../../../', __FILE__)
+
+group :development do
+  gem 'listen'
+end
