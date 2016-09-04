@@ -1,8 +1,6 @@
 # Force::Destroy
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/force/destroy`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A small gem that forces deleting an ActiveRecord instance/collection together with its/their associations
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem automatically adds in the 2 methods below:
+  1) `force_destroy!`: helps you to delete an ActiveRecord instance together with its associations even if the callbacks return false or throw abort
+  2) `force_destroy_all!`: similar to `force_destroy!`, but instead of deleting only an ActiveRecord instance, it deletes an ActiveRecord collection
 
 ## Development
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Thu Kim"]
   spec.email         = ["kimthu.bui@gmail.com"]
 
-  spec.summary       = %q{A small gem that forces deleting a record together with its associations}
+  spec.summary       = %q{A small gem that forces deleting an ActiveRecord instance/collection together with its/their associations}
   spec.description   = %q{same as summary. Note: it does not trigger any callbacks.}
   spec.homepage      = "https://github.com/thukim/force-destroy"
   spec.license       = "MIT"
