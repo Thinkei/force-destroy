@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/thukim/force-destroy.svg?branch=master)](https://travis-ci.org/thukim/force-destroy)
+
 # Force::Destroy
 
 A small gem that forces deleting an ActiveRecord instance/collection together with its/their associations
