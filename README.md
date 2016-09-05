@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thukim/force-destroy.svg?branch=master)](https://travis-ci.org/thukim/force-destroy)
+[![Build Status](https://travis-ci.org/thukim/force-destroy.svg?branch=master)](https://travis-ci.org/thukim/force-destroy) [![Code Climate](https://codeclimate.com/github/thukim/force-destroy/badges/gpa.svg)](https://codeclimate.com/github/thukim/force-destroy) [![Inline docs](http://inch-ci.org/github/remote-exec/command-designer.png)](http://www.rubydoc.info/github/thukim/force-destroy) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://thukim.mit-license.org)
 
 # Force::Destroy
 
